@@ -1,0 +1,174 @@
+.photo{
+    width:50px ;
+    height: 50px;
+    padding-top: 200px;
+}
+
+.margin{
+    margin-bottom: 50px;
+}
+.container{
+    margin-top: 50px;
+}
+ .shift {
+    padding-left: 35%; 
+    /* background-color: rgb(63, 42, 245); */
+    width: 100%;
+    height: 50%;
+    padding-top: 7%;
+    /* background-image: url('./bg.jpg'); */
+}
+
+.circle1 {
+    /* float: clear;
+    margin-right: 20px; */
+    max-width: 50%;
+    max-height: 50%;
+    margin-top: 25px;
+}
+.circle {
+    /* float: clear;
+    margin-right: 20px; */
+    max-width: 30%;
+    max-height: 0%;
+    margin-bottom: 10px;
+}
+#contact {
+    
+    text-align: center;
+}
+.brand {
+    text-align: center;
+    
+}
+nav .nav-wrapper {
+    background-color: white;
+}
+
+.cont {
+    margin-left: 10%;
+}
+#width {
+    max-height: 50px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    
+}
+
+.grey-text {
+    width: 60%;
+}
+
+.p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    text-align: center;
+
+}
+.pad-p {
+    padding-bottom: 10px;
+}
+.card {
+    max-width: 80%;
+    max-height: 70%;
+    
+
+}
+nav .nav-wrapper {
+    border-bottom: grey;
+    /* padding-bottom: 5px; */
+}
+nav .sidenav-trigger i{
+    color:blueviolet;
+}
+.edu{
+ align-items: center;
+ margin-left: 25%;
+ margin-top: 20px;
+ padding-top: 30px;
+}
+.edu-head {
+    font-family:Helvetica, Verdana, Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.sidenav{
+    width: 10%;
+}
+.talk-to-me {
+    padding: 5px;
+}
+.btn, .btn-large, .btn-small{
+    background-color: green;
+}
+.btn, .btn-large, .btn-small {
+    text-decoration: none;
+    color: #fff;
+    background-color:green !important;
+    text-align: center;
+    letter-spacing: .5px;
+    transition: background-color .2s ease-out;
+    cursor: pointer;
+}
+
+/* nav .sidenav-trigger i{
+    background-color:;
+} */
+/* nav .nav-wrapper{
+    background-color: ;
+} */
+.testi {
+    text-align: center;
+}
+.social-container {
+    background-color: #eee;
+    padding: 25px 50px;
+}
+a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+}
+a.social:hover {
+    transform: translateY(-2px);
+}
+a.twitter{
+    color: #49a1eb;
+}
+a.telegram {
+    color:rgb(0, 140, 255);
+}
+a.whatsapp{
+    color:rgb(0, 255, 21) ;
+}
+a.linkedin{
+    color:blue;
+}
+h3{
+    text-align: center;
+    font-family: Helvetica, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (min-width:300px) and (max-width:640px){
+    .grey-text.text-lighten-4{
+        width: 100%;
+        margin:0px !important ;
+        padding: 0% !important;
+        
+    }
+    .shift {
+        padding-left: 10%; 
+        width: 100%;
+        height: 50%;
+        padding-top: 5%;
+    }
+    .circle {
+        max-width: 38%;
+        max-height: 0%;
+        margin-bottom: 5px;
+    }
+    .row .col.s12 {
+        padding-bottom: 20px;
+        
+    }
+}
+
