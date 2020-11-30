@@ -39,7 +39,7 @@ export default function Contact() {
                     </Col>
                     <Col m={6} s={12}>
                       <p>
-                        <a class="black-text text-lighten-3" href="mailto: ajalaeniola454@gmail.com" target="_blank" >
+                        <a class="black-text text-lighten-3" href="mailto: ajalaeniola454@gmail.com" rel="noreferrer" target="_blank" >
                           ajalaeniola454@gmail.com
                         </a>
                       </p>
