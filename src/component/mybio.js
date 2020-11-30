@@ -8,7 +8,7 @@ export default function Mybio() {
     <div>
       <h3> My Biography</h3>
       <p className="p">
-        {" "}
+        
         I am Eniola Ajala, an outstanding Front-End web developer. I spend most
         of my time experimenting with HTML, CSS, and JavaScript; dabbling with
         React JS and Bootstrap. <br /> I build websites that delight and inform.

@@ -29,7 +29,7 @@ export default function Sample() {
               title="Agric-Site"
             >
               <p>
-                <a href="#">View Code</a>
+                <a href="/">View Code</a>
               </p>
             </Card>
           </Col>
@@ -52,7 +52,7 @@ export default function Sample() {
               title="Count down timer"
             >
               <p>
-                <a href="#">View Code</a>
+                <a href="/">View Code</a>
               </p>
             </Card>
           </Col>
@@ -75,7 +75,7 @@ export default function Sample() {
               title="React Web app "
             >
               <p>
-                <a href="#">View Code</a>
+                <a href="/">View Code</a>
               </p>
             </Card>
           </Col>

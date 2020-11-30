@@ -1,14 +1,14 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
 import {Navbar, Icon} from 'react-materialize'
-import Talk from './talktome'
+// import Talk from './talktome'
 
 export default function CustomNav() {
   return (
     <div>
       <Navbar 
   alignLinks="right"
-  brand={<a className="brand-logo black-text " href="#">Eniola Ajala</a>}
+  brand={<a className="brand-logo black-text " href="/">Eniola Ajala</a>}
   id="mobile-nav"
   menuIcon={<Icon>menu</Icon>}
   options={{
