@@ -18,7 +18,7 @@ function App() {
       </Route>
     </Switch>
     
-      <Header/>
+      
       
       
       
