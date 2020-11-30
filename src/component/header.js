@@ -1,11 +1,11 @@
 import React from "react";
-import { Row, Col, CollectionItem, Collection, Icon } from "react-materialize";
+// import { Row, Col, CollectionIt} from "react-materialize";
 import Me from "./Me.jpg";
 import Mybio from "./mybio";
 import Contact from "./contact";
 import Personal from "./personal";
 import Sample from "./sample";
-import CustomNav from "./sidenav";
+// import CustomNav from "./sidenav";
 
 export default function Header() {
   return (

@@ -1,7 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faFacebook,
   faTwitter,
   faLinkedin,
   faGithub,
@@ -45,26 +44,26 @@ export default function Contact() {
                         </a>
                       </p>
                       <p>
-                        {" "}
+                        
                         <a class="black-text text-lighten-3" href="#!">
                           No 7 Shagari village, Akure, Ondo State
-                        </a>{" "}
+                        </a>
                       </p>
                       
                     </Col>
                   </Row>
                   
                   <div className="social-container">
-                    <a href="https://twitter.com/@Eniola65575802/" target="_blank" className="twitter social">
+                    <a href="https://twitter.com/@Eniola65575802/" target="_blank" rel="noreferrer" className="twitter social">
                       <FontAwesomeIcon icon={faTwitter} size="2x" />
                     </a>
-                    <a href="https://www.linkedin.com/in/eniola-ajala-1a37a4189" target="_blank" className="linkedin social">
+                    <a href="https://www.linkedin.com/in/eniola-ajala-1a37a4189" target="_blank" rel="noreferrer" className="linkedin social">
                       <FontAwesomeIcon icon={faLinkedin} size="2x" />
                     </a>
-                    <a href="https://github.com/eniola-ajala" target="_blank" className="github social">
+                    <a href="https://github.com/eniola-ajala" target="_blank" rel="noreferrer" className="github social">
                       <FontAwesomeIcon icon={faGithub} size="2x" />
                     </a>
-                    <a href="https://api.whatsapp.com/send?phone=2347061570287" target="_blank" className="whatsapp social">
+                    <a href="https://api.whatsapp.com/send?phone=2347061570287" target="_blank" rel="noreferrer" className="whatsapp social">
                       <FontAwesomeIcon icon={faWhatsapp} size="2x" />
                     </a>
                     
