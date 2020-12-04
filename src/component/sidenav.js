@@ -32,9 +32,7 @@ export default function CustomNav() {
   <a className="black-text" href="#personalBranding"> Personal Brand</a>
   <a className="black-text" href="#sample"> My Works</a>
   <a className="black-text" href="#contact"> Contact </a>
-  {/* <NavLink className="black-text" to='/talktome'> */}
-    {/* Hire Me */}
-  {/* </NavLink> */}
+  
 </Navbar>
       
     </div>

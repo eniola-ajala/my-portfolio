@@ -1,16 +1,14 @@
 import React from "react";
-// import { Row, Col, CollectionIt} from "react-materialize";
 import Me from "./Me.jpg";
 import Mybio from "./mybio";
 import Contact from "./contact";
 import Personal from "./personal";
 import Sample from "./sample";
-// import CustomNav from "./sidenav";
 
 export default function Header() {
   return (
     <div>
-      <div className="#1976d2 blue darken-2 shift">
+      <div className="shift">
         <img alt="Eniola Ajala" className="circle" src={Me} />
 
         <h4 class="white-text">Eniola Ajala</h4>
@@ -19,11 +17,11 @@ export default function Header() {
           A skilled Front-End web developer with core knowledge in Front-End web
           development languages. Also, equipped with sound communication skills
           to communicate technical issues and solutions to non-teachnical
-          individual.{" "}
+          individual.
         </p>
-        
       </div>
-      <div className="bot"></div>
+      <div className="all-bg">
+      <div className="bio"></div>
       <div id="myBio">
         <Mybio />
       </div>
@@ -37,7 +35,7 @@ export default function Header() {
         <Sample />
       </div>
       <div className="pad-p"></div>
-
+      </div>
       <div id="contact">
         <Contact />
       </div>

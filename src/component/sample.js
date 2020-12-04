@@ -7,9 +7,9 @@ import {Row, Col, Card, CardTitle, Icon} from 'react-materialize'
 export default function Sample() {
   return (
     <div>
-      <div className="sample">
+      <div className="sample-bg">
           <h3> Some Of My Works</h3>
-        <Row>
+        <Row className="sample">
           <Col m={4} s={12}>
             <Card
               closeIcon={<Icon>close</Icon>}

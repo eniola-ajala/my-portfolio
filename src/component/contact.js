@@ -20,7 +20,7 @@ export default function Contact() {
         <div>
           <footer class="page-footer white">
             <div class="">
-              <div class="row">
+              <div className="row">
                 <div class="col l12 s12">
                   <Chip
                     close={false}
@@ -31,7 +31,7 @@ export default function Contact() {
                     Eniola Ajala
                     
                   </Chip>
-                  <div className="talk-to-me black-text center-align"> Hire Me <Talk/> </div>
+                  <div className="talk-to-me black-text center-align">  <Talk/> </div>
                   <Row>
                     <Col m={6} s={12}>
                       <p class="black-text text-lighten-4"> Email Address</p>
