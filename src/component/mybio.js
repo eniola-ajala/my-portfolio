@@ -7,7 +7,7 @@ export default function Mybio() {
   return (
     <div>
       <h3 className="bio-top"> My Biography</h3>
-      <p className="p">
+      <p className="p" id="goggle-font">
         I am Eniola Ajala, an outstanding Front-End web developer. I spend most
         of my time experimenting with HTML, CSS, and JavaScript; dabbling with
         React JS and Bootstrap. <br /> I build websites that delight and inform.
@@ -18,9 +18,7 @@ export default function Mybio() {
         well suited to the job at hand. <br /> I have core knowledge of HTML,
         CSS, Bootstrap, JavaScript and React JS
       </p>
-
       <div className="pad-p"></div>
-
       <h4 className="edu-head"> Education </h4>
       <div className="edu">
         <Row>
@@ -28,7 +26,7 @@ export default function Mybio() {
             <img alt="oau" className="circle1" src={OAU} />
             <br />
             <div className="pad-p"></div>
-            <h6> Obafemi Awolowo University</h6>
+            <h6 className="school"> Obafemi Awolowo University</h6>
             <p> Department : Agricultural Economics</p>
             <p> Faculty : Agriculture</p>
             <p> Degree : B.Agric</p>
@@ -36,9 +34,9 @@ export default function Mybio() {
           <Col m={6} s={12}>
             <img alt="Pearl africa" className="circle" src={PAF} />
             <br />
-            <h6> Pearl Africa Foundation</h6>
+            <h6 className="school"> Pearl Africa Foundation</h6>
             <p>Student; Web Development Intermediate </p>
-            <p>Duration: October 2020 - Present </p>
+            <p>Duration: October 2020 - December 2020 </p>
             <p> </p>
             <div className="pad-p"></div>
           </Col>

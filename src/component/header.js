@@ -10,10 +10,8 @@ export default function Header() {
     <div>
       <div className="shift">
         <img alt="Eniola Ajala" className="circle" src={Me} />
-
-        <h4 class="white-text">Eniola Ajala</h4>
-
-        <p class="grey-text text-lighten-4">
+        <h4 className="white-text center-align name" id="goggle">Eniola Ajala</h4>
+        <p className="grey-text text-lighten-4 center-align">
           A skilled Front-End web developer with core knowledge in Front-End web
           development languages. Also, equipped with sound communication skills
           to communicate technical issues and solutions to non-teachnical
@@ -25,12 +23,10 @@ export default function Header() {
       <div id="myBio">
         <Mybio />
       </div>
-
       <div id="personalBranding">
         <Personal />
       </div>
       <div className="pad-p"></div>
-
       <div id="sample">
         <Sample />
       </div>

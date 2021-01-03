@@ -4,11 +4,9 @@ import {
   faTwitter,
   faLinkedin,
   faGithub,
-  faWhatsapp,
-  
-} from "@fortawesome/free-brands-svg-icons";
+  faWhatsapp,} from "@fortawesome/free-brands-svg-icons";
 import "materialize-css";
-import { Chip, Icon, Row, Col } from "react-materialize";
+import {Chip, Icon, Row, Col } from "react-materialize";
 import Me from "./Me.jpg";
 import Talk from './talktome'
 
@@ -18,8 +16,8 @@ export default function Contact() {
       <div>
         <h3> Contact Me</h3>
         <div>
-          <footer class="page-footer white">
-            <div class="">
+          <footer className="page-footer white">
+            <div>
               <div className="row">
                 <div class="col l12 s12">
                   <Chip
@@ -29,27 +27,24 @@ export default function Contact() {
                   >
                     <img alt="Contact" className="responsive-img" src={Me} />
                     Eniola Ajala
-                    
                   </Chip>
                   <div className="talk-to-me black-text center-align">  <Talk/> </div>
                   <Row>
                     <Col m={6} s={12}>
-                      <p class="black-text text-lighten-4"> Email Address</p>
-                      <p class="black-text text-lighten-4"> Home Address</p>
+                      <p className="black-text text-lighten-4"> Email Address</p>
+                      <p className="black-text text-lighten-4"> Home Address</p>
                     </Col>
                     <Col m={6} s={12}>
                       <p>
-                        <a class="black-text text-lighten-3" href="mailto: ajalaeniola454@gmail.com" rel="noreferrer" target="_blank" >
+                        <a className="black-text text-lighten-3" href="mailto: ajalaeniola454@gmail.com" rel="noreferrer" target="_blank" >
                           ajalaeniola454@gmail.com
                         </a>
                       </p>
                       <p>
-                        
-                        <a class="black-text text-lighten-3" href="#!">
+                        <a className="black-text text-lighten-3" href="#!">
                           No 7 Shagari village, Akure, Ondo State
                         </a>
                       </p>
-                      
                     </Col>
                   </Row>
                   
@@ -66,7 +61,6 @@ export default function Contact() {
                     <a href="https://api.whatsapp.com/send?phone=2347061570287" target="_blank" rel="noreferrer" className="whatsapp social">
                       <FontAwesomeIcon icon={faWhatsapp} size="2x" />
                     </a>
-                    
                   </div>
                 </div>
               </div>

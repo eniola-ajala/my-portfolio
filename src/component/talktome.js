@@ -28,17 +28,14 @@ export default function Talk() {
           preventScrolling: true,
           startingTop: "4%",
         }}
-          // root={[object HTMLBodyElement]}
         trigger={<Button node="button">Hire Me</Button>}
       >
         
-        <form>
+        <form action="mailto: ajalaeniola454@gmail.com">
           <TextInput id="TextInput-4" label="Name" />
           <TextInput email id="TextInput-4" label="Email" validate />
-          <TextInput id="TextInput-12" label="Talk to me" />
           <Button node="button" type="submit" waves="light">
-            {" "}
-            Submit{" "}
+            Talk To Me
           </Button>
         </form>
       </Modal>
