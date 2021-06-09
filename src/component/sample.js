@@ -22,14 +22,14 @@ export default function Sample() {
               }
               reveal={
                 <p>
-                  This single web page was built to be in relation to an agricultural website, after been motivated by a friend. It is the first web page i built!
+                  Web app built with React JS. 
                 </p>
               }
               revealIcon={<Icon></Icon>}
-              title="Agric-Site"
+              title="Movie-App"
             >
               <p>
-                <a href="https://github.com/eniola-ajala">View Code</a>
+                <a href="https://github.com/eniola-ajala/Movie-App">View Code</a>
               </p>
             </Card>
           </Col>
@@ -45,14 +45,14 @@ export default function Sample() {
               }
               reveal={
                 <p>
-                  This project was built with React. It was the first assignment project i did at Pearls Africa. 
+                  Count-down timer built with React Js
                 </p>
               }
               revealIcon={<Icon></Icon>}
               title="Count down timer"
             >
               <p>
-                <a href="https://github.com/eniola-ajala">View Code</a>
+                <a href="https://github.com/eniola-ajala/countdown-timer">View Code</a>
               </p>
             </Card>
           </Col>
@@ -72,10 +72,10 @@ export default function Sample() {
                 </p>
               }
               revealIcon={<Icon></Icon>}
-              title="React Web app "
+              title="Ennie Tech "
             >
               <p>
-                <a href="https://github.com/eniola-ajala">View Code</a>
+                <a href="https://github.com/eniola-ajala/firebase-app">View Code</a>
               </p>
             </Card>
           </Col>
