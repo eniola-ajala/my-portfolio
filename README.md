@@ -1,3 +1,8 @@
+I created my profile after finishing React track in Pearls Africa Foundation Bootcamp.
+The only way to learn React is to write React as much as possible.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
