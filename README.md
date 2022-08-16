@@ -1,4 +1,4 @@
-I created my profile after finishing React track in Pearls Africa Foundation Bootcamp.
+I created my portfolio with React JS after finishing React track in Pearls Africa Foundation Bootcamp.
 
 The only way to learn React is to write React as much as possible.
 
