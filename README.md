@@ -1,4 +1,5 @@
 I created my portfolio with React JS after finishing React track in Pearls Africa Foundation Bootcamp.
+
 I've come to understand that;
 The only way to learn React is to write React as much as possible.
 
